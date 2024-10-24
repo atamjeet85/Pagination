@@ -4,6 +4,7 @@ function Filters({ onSortChange }) {
   const handleSortChange = (event) => {
     onSortChange(event.target.value);
   };
+  //filters
  
   return (
     <div className="filters">
